@@ -1,0 +1,140 @@
+body{
+    overflow-x: hidden;
+}
+.navbar .nav-link{
+    text-transform: uppercase;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+.navbar .nav-item.active{
+    padding-bottom: 2px;
+    border-bottom: rgb(124, 124, 124) 3px solid;
+}
+
+.carousel-item{
+    height: 450px;
+    position: relative;
+}
+
+#overlay{
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+} 
+
+.carousel-image-1{
+    background-image: url('./img/image1.jpg');
+    object-fit: cover;
+}
+
+.carousel-image-2{
+    background-image: url('./img/image2.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3{
+    background-image: url('./img/image3.jpg');
+    background-size: cover;
+}
+
+#home-heading{
+    position: relative;
+    min-height: 210px;
+    background-image: url('./img/lights.jpg') ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.dark-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#video-play{
+    position: relative;
+    min-height: 210px;
+    background-image: url('./img/media.jpg') ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: white;
+}
+
+#video-play a{
+    color: white;
+}
+
+#page-header{
+    padding-top: 110px;
+    height: 260px;
+    background-image: url('./img/image1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #ffff;
+    border-bottom: 1px solid #eee;
+}
+
+.about-img{
+    margin-top: -50px;
+}
+
+#faq .card{
+    border: #444;
+    margin-bottom: 5px;
+}
+
+#faq a{
+    color: #fff;
+    text-decoration: none;
+}
+#faq .card-header{
+ cursor: pointer;
+}
+
+#faq .card-body,
+#faq .card-header{
+    background: #333;
+}
+
+#main-footer{
+    background-color: black;
+    color: #fff;
+}
+
+@media screen and (max-width : 768px){
+    #blockBtn{
+    display: block;
+    width: 98%;
+    margin-left: -7px;
+    }
+
+    .random-img{
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
